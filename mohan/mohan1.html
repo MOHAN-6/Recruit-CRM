@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM</title>
+  <link rel="stylesheet" href="mohan2.css">
+</head>
+<body>
+
+<header class="header">
+  <h1> CRM Company Profile</h1>
+  <input type="search" id="quickSearch" placeholder="Search contacts, jobs, activities...">
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-section="overview">Overview</button>
+  <button class="tab" data-section="contacts">Contacts</button>
+  <button class="tab" data-section="jobs">Jobs</button>
+  <button class="tab" data-section="activities">Activities</button>
+</nav>
+
+<main>
+  <section id="overview" class="tab-section active">
+    <h2>Company Overview</h2>
+    <p><strong>Industry:</strong> Software Development</p>
+    <p><strong>Location:</strong> San Francisco, CA</p>
+    <p><strong>About:</strong> This company specializes in AI-driven recruitment tools.</p>
+  </section>
+
+  <section id="contacts" class="tab-section">
+    <h2>Contacts</h2>
+    <ul>
+      <li>Upendra – HR Manager – uppu@gmail.com</li>
+      <li>Sivaji – Recruiter – Sivaji@gmail.com</li>
+    </ul>
+    <a href="contacts.html">
+    <button class="add-btn">Add Contact</button>
+    </a>
+  </section>
+
+  <section id="jobs" class="tab-section">
+    <h2>Jobs</h2>
+    <ul>
+      <li>Frontend Developer – Posted 2 days ago</li>
+      <li>Backend Engineer – Posted 1 week ago</li>
+    </ul>
+    <a href="jobs.html">
+    <button class="add-btn">post  Job</button>
+    </a>
+  </section>
+
+  <section id="activities" class="tab-section">
+    <h2>Recent Activities</h2>
+    <ul>
+      <li>Meeting scheduled with upendra – Aug 11</li>
+      <li>Job posting reviewed by HR – Aug 10</li>
+    </ul>
+    <a href="activities.html">
+    <button class="add-btn">Add Activity</button>
+    </a>
+  </section>
+</main>
+<script src="mohan3.js"></script>
+</body>
+</html>
